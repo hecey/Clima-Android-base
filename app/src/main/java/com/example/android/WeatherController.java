@@ -1,13 +1,19 @@
 package com.example.android;
 
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.android.climapm.R;
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 
+import org.json.JSONObject;
 
 
 public class WeatherController extends AppCompatActivity {
@@ -65,6 +71,7 @@ public class WeatherController extends AppCompatActivity {
 
 
     // TODO: Add letsDoSomeNetworking(RequestParams params) here:
+
 
 
 
